@@ -17,6 +17,11 @@ header {
     text-align: center;
     margin-bottom: 25px;
 }
+.credit {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
 
 header h1 {
     font-size: 32px;
@@ -273,3 +278,4 @@ footer {
 .developer strong {
     color: #2d6a4f;
 }
+
