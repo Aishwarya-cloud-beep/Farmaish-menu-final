@@ -273,5 +273,14 @@ footer {
 .developer strong {
     color: #2d6a4f;
 }
+.dev-email {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #555;
+}
+
+.dev-email strong {
+    color: #2d6a4f;
+}
 
 
