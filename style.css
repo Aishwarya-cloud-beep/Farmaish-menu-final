@@ -282,4 +282,27 @@ footer {
 .dev-email strong {
     color: #2d6a4f;
 }
+/* 🧵 Linen Fabric Texture */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        repeating-linear-gradient(
+            45deg,
+            rgba(255,255,255,0.06),
+            rgba(255,255,255,0.06) 1px,
+            transparent 1px,
+            transparent 6px
+        ),
+        repeating-linear-gradient(
+            -45deg,
+            rgba(0,0,0,0.03),
+            rgba(0,0,0,0.03) 1px,
+            transparent 1px,
+            transparent 6px
+        );
+    pointer-events: none;
+    z-index: -1;
+}
 
