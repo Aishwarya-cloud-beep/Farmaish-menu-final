@@ -142,10 +142,10 @@ footer {
 body {
     background: linear-gradient(
         -45deg,
-        #d8f3dc,
-        #b7e4c7,
-        #95d5b2,
-        #dff5f1
+        #ea880f,
+        #ea880f,
+        #ea880f,
+        #ea880f
     );
     background-size: 400% 400%;
     animation: gradientMove 12s ease infinite;
@@ -282,5 +282,4 @@ footer {
 .dev-email strong {
     color: #2d6a4f;
 }
-
 
