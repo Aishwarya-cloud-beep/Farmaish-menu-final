@@ -305,4 +305,19 @@ body::after {
     pointer-events: none;
     z-index: -1;
 }
+/* 🎥 Video Logo */
+.logo-video {
+    width: 220px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover animation */
+.logo-video:hover {
+    transform: scale(1.12);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
 
